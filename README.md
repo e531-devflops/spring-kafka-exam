@@ -10,6 +10,8 @@ Spring Boot와 Apache Kafka를 이용한 Pub/Sub 모델 예제
 - Apache Kafka 2.7.0 (Scala 2.13)
 - OpenJDK 11
 
+<br />
+
 ## 개발 환경 셋팅
 ### 1. Apache Kafka 설치
 VM 우분투 리눅스 환경에서 진행합니다.
@@ -44,6 +46,8 @@ bin/kafka-server-start.sh config/server.properties
 ```bash
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic quickstart-events
 ```
+
+<br />
 
 ## 테스트
 이 프로젝트를 다운받고 프로젝트를 ```build/run```하시면 Pub/Sub 테스트가 가능합니다.<br />
