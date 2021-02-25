@@ -52,7 +52,7 @@ bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic quickstar
 <br />
 
 Postman을 이용하여 API를 통해 Publish를 할 수 있습니다.<br />
-![API_CALL](https://drive.google.com/file/d/1sXhVVHqkzvZguFWzl23f4DTtJqcU3o_k/view?usp=sharing) <br />
+![API_CALL](https://user-images.githubusercontent.com/9658336/109131854-8845af00-7796-11eb-9c5f-bcb3e4454934.png) <br />
 Publish에 성공하면 ```success```를 반환합니다.
 
 <br />
@@ -62,7 +62,7 @@ Publish에 성공하면 ```success```를 반환합니다.
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic quickstart-events
 ```
 
-![RESULT](https://drive.google.com/file/d/1boI4DMEGjPCEO2FlQpCLX-G-IDyvpEOi/view?usp=sharing) <br />
-![RESULT](https://drive.google.com/file/d/1u8hKrSfGXFjUg8SuyX6djC52xoPmatI0/view?usp=sharing) <br />
+![RESULT](https://user-images.githubusercontent.com/9658336/109131866-8c71cc80-7796-11eb-8c3d-9033c1d7bf19.png) <br />
+![RESULT](https://user-images.githubusercontent.com/9658336/109131870-8d0a6300-7796-11eb-9a40-8fecee8e30f0.png) <br />
 
 위의 결과처럼 정상적으로 ```produce/consume```하는 것을 확인 할 수 있습니다.
