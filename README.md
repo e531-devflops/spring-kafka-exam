@@ -1,4 +1,4 @@
-# spring-kafka-test
+# spring-kafka-exam
 Spring Boot와 Apache Kafka를 이용한 Pub/Sub 모델 예제
 
 <br />
